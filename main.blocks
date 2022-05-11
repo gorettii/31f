@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Z!iXuo0K7R.M%ZN|tGE!">sprite</variable><variable id="f(:#s1?w0Y!SeA,q[HdG">puntua</variable></variables><block type="device_button_event" id="6*J5yDN8l{)5f,@{:+gE" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="game_sprite_change_xy" id="T1X2(fG#U)[4D6y1vjJq"><field name="property">LedSpriteProperty.X</field><value name="sprite"><block type="variables_get" id="mpfi@Q+V]p`g%dw]P`sy"><field name="VAR" id="Z!iXuo0K7R.M%ZN|tGE!">sprite</field></block></value><value name="value"><shadow type="math_number" id="*@{rI+XPQgchK`y9ur;h"><field name="NUM">1</field></shadow></value><next><block type="game_move_sprite" id="/_yIE~]O~?_+@vwC7txN"><value name="sprite"><block type="variables_get" id="Ny:Qc;s4+WwTEmx)-N_Q"><field name="VAR" id="f(:#s1?w0Y!SeA,q[HdG">puntua</field></block></value><value name="leds"><shadow type="math_number" id="z4BaK4Ct,Sc^uDE5u}Y9"><field name="NUM">1</field></shadow></value><next><block type="device_show_leds" id="T+ntds~uW9QkVsuQ5BnY"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="t0yxRbT/H*p%4l{[l%P." x="778" y="9"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="game_sprite_change_xy" id="jBJ$mpf|JsN^nv6mZBF6"><field name="property">LedSpriteProperty.X</field><value name="sprite"><block type="variables_get" id="?2:XuBQQEPp4X_V0oV%a"><field name="VAR" id="Z!iXuo0K7R.M%ZN|tGE!">sprite</field></block></value><value name="value"><shadow type="math_number" id="nJdEM9kGF=4{G)%3Mq]!"><field name="NUM">-1</field></shadow></value><next><block type="game_move_sprite" id="GN;O,f@Ox$_{irALIMGv"><value name="sprite"><block type="variables_get" id="q{bB^7K3ZJe,80/Ii-le"><field name="VAR" id="f(:#s1?w0Y!SeA,q[HdG">puntua</field></block></value><value name="leds"><shadow type="math_number" id="Ke@+^mgl:zz3q`S78;3["><field name="NUM">-1</field></shadow></value><next><block type="device_show_leds" id="]sbtX.fWJo87nH3{j#3z"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="$=W@#niEKXm:k.ukZaCO" x="351" y="35"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="game_sprite_change_xy" id="Tar.tOt71y-/o+6Mw6}-"><field name="property">LedSpriteProperty.Y</field><value name="sprite"><block type="variables_get" id="TINkR0{3JOuW^ma1?5,~"><field name="VAR" id="f(:#s1?w0Y!SeA,q[HdG">puntua</field></block></value><value name="value"><shadow type="math_number" id="EsyYo7EQvJmsm,pv8O$w"><field name="NUM">-1</field></shadow></value><next><block type="device_show_leds" id="??W.qGf??dL/=iMN:=KA"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="pxt-on-start" id="yE,+xwNtlIunLGX6bn9B" x="80" y="450"><statement name="HANDLER"><block type="device_show_leds" id=",Joe=z;WD0$t*%{9xd[n"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block><block type="variables_set" id="[E9@Uu;#G$G={R4%dl*[" disabled="true" x="382" y="560"><field name="VAR" id="f(:#s1?w0Y!SeA,q[HdG">puntua</field><value name="VALUE"><shadow type="math_number" id="aL;g[I}z|8i=g_KRR_rQ" disabled="true"><field name="NUM">0</field></shadow></value></block><block type="variables_set" id="+_Q+37!%nNBA_Q;{Ilp|" disabled="true" x="486" y="632"><field name="VAR" id="f(:#s1?w0Y!SeA,q[HdG">puntua</field><value name="VALUE"><shadow type="math_number" id="F(8fqR.s,c$Lc-G#$@7H" disabled="true"><field name="NUM">0</field></shadow></value></block><block type="game_create_sprite" id="|RdYN.5*P+EaOfef@t$2" disabled="true" x="374" y="695"><value name="x"><shadow type="math_number" id="3Nlud3CcduTy5;.2gEt+" disabled="true"><field name="NUM">2</field></shadow></value><value name="y"><shadow type="math_number" id="o[Jz,`k+yTcym$P*N$ox" disabled="true"><field name="NUM">2</field></shadow></value></block><block type="game_move_sprite" id="V|Nr8Vl1}z5Sg.h:3YI4" disabled="true" x="545" y="836"><value name="sprite"><block type="variables_get" id="X{.LbCOK0%M_6^9V=uf1" disabled="true"><field name="VAR" id="f(:#s1?w0Y!SeA,q[HdG">puntua</field></block></value><value name="leds"><shadow type="math_number" id="_M?EnEh4N#3]C|/ye#L@" disabled="true"><field name="NUM">1</field></shadow></value></block></xml>
